@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
+@media (min-width: 1281px) {
+* {
+    margin: 0px;
+    font-family: 'Jost';
+}
+
+.header {
+    background-color: #FF7F99;
+    display: flex; 
+    justify-content: space-between;
+    height: 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3.75rem;
+}
+
+.logo {
+    height: 4.37rem;
+}
+.button {
+    border: none; 
+    margin: 2.188rem;
+    font-size: 1.125rem;
+    color: white;
+    justify-content: center;
+    background-color: #FF7F99;
+    padding: 0.625rem 1.875rem;
+}
+
+.buttonContact {
+    background-color: transparent;
+    border: #FFCA41 2px solid;
+    font-size: 1.25rem;
+    color: white;
+    margin-right: 3.125rem;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.875rem;
+}
+
+.buttonContact:hover {
+    background-color: #FFCA41;
+}
+
+.button:hover {
+    background-color: #FFCA41;
+    border-radius: 1.875rem;
+}
+
+main {
+    padding: 1.25rem;
+    margin: 0px 1.25rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.avatar {
+    height: 590px;
+    background-color: #ff7f99;
+    border-radius: 273px 0 273px 273px;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 10px 50x;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    padding: 30px 70x;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+  }
+
+
+.avatarImg {
+    height: 570px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 6.25rem;
+    line-height: 4.375rem;
+    font-weight: 25rem;
+    color: #FF7F99;
+}
+.Contact-info {
+    color: #FF7F99;
+    font-size: 3rem;
+    margin-right: 4.375rem;
+    padding: 0;
+    margin-left: 6.25rem;
+    margin-top: 6.25rem;
+    text-align: justify;
+}
+
+.especialistas {
+    margin-top: 1.875rem;
+}
+.information {
+    font-size: 1.25rem;
+    margin: 0px;
+    color: black;
+}
+
+.text {
+    color: black;
+    font-size: 0.938rem;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 18.75rem;
+}
+
+.PersonalContact {
+    display: flex;
+    margin-top: 0.938rem;
+    margin-left: 1.25rem;
+}
+
+.LinkedinPrin {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: 1.25rem;
+    border-radius: 0.313rem;
+    border-bottom: 0.313rem;
+}
+
+.contact {
+    background-color: #FFCA41;
+    border: none;
+    width: 14.375rem;
+    height: 3.125rem;
+    border-radius: 1.875rem;
+    color: white;
+    font-size: 1.063rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #FF7F99;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.dev {
+    margin-top: 1.25rem;
+    width: 17.313rem;
+}
+.especialidad {
+    display: flex;
+    justify-content: center;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.Linkedin {
+    margin-left: 6.875rem;
+    padding: 0.625rem;
+    width: 2.813rem;
+}
+
+.contact-form {
+    background-color: #FFCA41;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    width: 31.25rem;
+    margin: 0 auto;
+    margin-left: 6.25rem;
+    margin-top: 3.125rem;
+    height: 33.75rem;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: 0.313rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.313rem;
+    border: solid 1px black;
+  }
+  
+  .contact-form textarea {
+    border: solid 1px black;
+    height: 6.25rem;
+  }
+  
+  .contact-form button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
+    border: none;
+    cursor: pointer;
+    border: solid 1px black;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ffe78c;
+  }
+  .footer-form {
+    position: relative;
+    width: 100%;
+    height: 9.375rem;
+    background-color: #FF7F99;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0px;
+        font-family: 'Jost';
+    }
+
+    .header {
+        background-color: #FF7F99;
+        justify-content: center;
+        height: 270px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 65px;
+        margin-right: 80px;
+        justify-content: space-around;
+    }
+
+    .logo {
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+
+    .button {
+        border: none; 
+        margin: 10px;
+        font-size: 18px;
+        color: white;
+        flex-direction: column;
+        background-color: #FF7F99;
+    }
+    
+    .buttonContact {
+        background-color: transparent;
+        border: #FFCA41 2px solid;
+        font-size: 20px;
+        color: white;
+        margin-right: 50px;
+        border-radius: 30px;
+        padding: 10px 30px;
+    }
+    
+    .buttonContact:hover {
+        background-color: #FFCA41;
+    }
+    
+    .button:hover {
+        background-color: #FFCA41;
+        border-radius: 30px;
+    }
+    
+    main {
+        padding: 20px;
+        margin: 0px 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+ 
+    .avatar {
+        height: 230px;
+        width: 230px;
+        background-color: #ff7f99;
+        border-radius: 370px 0 370px 370px;
+        margin-top: 40px;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+    
+
+    .avatarImg {
+        height: 230px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-weight: 40;
+        color: #FF7F99;
+    }
+    .Contact-info {
+        color: #FF7F99;
+        font-size: 70px;
+        margin-right: 70px;
+        padding: 0px;
+        margin-top: 50px;
+        text-align: justify;
+    }
+    
+    .especialistas {
+        margin-top: 20px;
+    }
+    .information {
+        font-size: 30px;
+        color: black
+    }
+    
+    .text {
+        color: black;
+        font-size: 15px;
+    }
+    
+    .PersonalContact {
+        display: flex;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+    .LinkedinPrin {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border-bottom: 5px;
+    }
+    
+    .contact {
+        background-color: #FFCA41;
+        border: none;
+        width: 130px;
+        height: 70px;
+        border-radius: 20px;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    footer {
+        background-color: #FF7F99;
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .dev {
+        margin-top: 20px;
+        width: 277px;
+    }
+    
+    .especialidad {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
+    .Linkedin {
+        margin-left: 110px;
+        padding: 10px;
+        width: 45px;
+    }
+    
+    .contact-form {
+        background-color: #FFCA41;
+        border-radius: 10px;
+        padding: 20px;
+        width: 220px;
+        margin: 0 auto;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 540px;
+      }
+      
+      .contact-form form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .contact-form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .contact-form input,
+      .contact-form textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: solid 1px black;
+      }
+      
+      .contact-form textarea {
+        border: solid 1px black;
+        height: 100px;
+      }
+      
+      .contact-form button {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        border: solid 1px black;
+      }
+      
+      .contact-form button:hover {
+        background-color: #ffe78c;
+      }
+    
+      .footer-form {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-color: #FF7F99;
+      }
+    }
